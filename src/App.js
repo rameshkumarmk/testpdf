@@ -1,11 +1,12 @@
+
 import { useState } from "react";
 import PdfViewerComponent from "./components/PdfViewerComponent";
 import "./App.css";
 
 function App() {
-  const [document, setDocument] = useState("document.pdf");
+  const [document, setDocument] = useState("test-original.pdf");
 
-  const handleOpen = () => setDocument("another-example.pdf");
+  const handleOpen = () => setDocument("document.pdf");
 
   return (
     <div className="App">
